@@ -5,7 +5,7 @@ package auth;
 option  go_package = "yan.grpc.v1;gprcv1";
 
 service Auth {
-  rpc Register (RegisterRequest) returns (RegisterResponse);
+  rpc Register (RegisterRequest) returns (RegisterResponse); //admin
   rpc Login (LoginRequest) returns (LoginResponse);
   rpc IsAdmin (IsAdminRequest) returns (isAdminResponse);
 
