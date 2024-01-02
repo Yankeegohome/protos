@@ -1,3 +1,2 @@
-module protos
-
+module github.com/Yankeegohome/protos
 go 1.21
